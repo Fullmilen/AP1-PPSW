@@ -1,0 +1,193 @@
+/*Limpar formatações padrão*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: Urw chancery l, cursive;
+    background: #e6e6e6;
+    font-stretch: expanded;
+    
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+    background-color: #ffd700;
+    padding: 15px;
+    text-align: center;
+
+}
+/*formatação do menu*/
+a {
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #663399;
+    padding: 10px 16px;
+    background: #ffd700;
+}
+
+#area-cabecalho a:hover {
+    color: #ffd700;
+    background: #663399;
+}
+
+a:link, a:visited {
+    color: #ffd700;
+    padding: 10px 16px;
+    background: #663399;
+}
+
+a:hover {
+    color: #663399;
+    background: #ffd700;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/*formatação em grupos de ids*/
+
+#area-postagens, #area-lateral{
+    background-color: white;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.postagem-lateral{ 
+    font-size: 0.8em;
+    font-stretch: expanded;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: white;
+    border-bottom: 5px #ccc;
+}
+
+#area-lateral{
+    width: 230px;
+    float: right;
+   
+}
+
+.conteudo-lateral {
+    position: fixed;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    
+}
+
+#area-dev {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.area-video{
+    width: 560px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 0px;
+   
+}
+
+#area-login{
+    width: 300px;
+    float: right;
+    border-left: #ffd700;
+    border-top: #ffd700;
+    border-right: #ffd700;
+    border-bottom: #ffd700;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    
+}
+.formulario{ 
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+    left: 50px;
+    top: 29%;
+    width:310px;
+    height:270px;
+    padding-left: 50px;
+   
+}
+
+.contato{
+    padding-top: 10px;
+    color: #663399;
+    background: #ffd700;
+    padding: 10px;
+}
+
+input {
+    border: 2px;
+    border-style: solid;
+    border-color: #663399;
+    padding: 8px;
+
+}
+
+#enviar {
+    color: #ffd700;
+    background-color: #663399;
+    padding: 10px;
+}
+
+/*formatação geral*/
+
+h1 {
+    color: #663399;
+    font-size: 2.5em;
+}
+
+.h2 {
+    color: #663399;
+    background-color: #ffd700;
+    padding: 5px;
+ }
+
+h2 {
+    color: #663399;
+}
+
+h3 {
+    color: #ffd700;
+    background: #663399;
+    padding: 10px;
+}
+.branco{
+    color: white;
+}
+
+.data{
+    font-size: 0.8em;
+    color: grey;
+    padding-top: 5px;
+    border-bottom: #ffd700;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.btn-fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #ffd700;
+}
